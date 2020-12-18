@@ -1,0 +1,21 @@
+---
+name: Crazy Cat Lady Membership Application
+about: Tell us what qualifies you to be a registered crazy cat lady.
+title: Application submitted by <replace with your name>
+inputs:
+- type: textarea
+  attributes:
+    label: Your favorite cat
+    required: true
+    placeholder: ex. Garfield, Maru, Mr. Mistoffolees
+    description: Tell us about your favorite cat, fictional or real, and why that is your favorite.
+- type: textarea
+  attributes:
+    label: Best cat breed?
+    placeholder: ex. Maine Coon
+- type: textarea
+  attributes:
+    label: Number of rooms
+    description: How many rooms in your house are dedicated to cats?
+issue_body: true
+
