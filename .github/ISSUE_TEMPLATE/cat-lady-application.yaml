@@ -9,13 +9,13 @@ inputs:
     required: true
     placeholder: ex. Garfield, Maru, Mr. Mistoffolees
     description: Tell us about your favorite cat, fictional or real, and why that is your favorite.
-- type: textarea
+- type: input
   attributes:
     label: Best cat breed?
     placeholder: ex. Maine Coon
     required: true
-- type: textarea
+- type: input
   attributes:
     label: Number of rooms
     description: How many rooms in your house are dedicated to cats?
-issue_body: false
+issue_body: true
