@@ -4,11 +4,11 @@ You may apply for membership by opening a new issue.
 
 Current accepted members:
 
-@itsbagpack
-@nholden
-@kenyonj
-@becca
+* @itsbagpack
+* @nholden
+* @kenyonj
+* @becca
 
 Pending approval:
 
-@gallexi (We'll have to see about the allergies)
+* @gallexi (We'll have to see about the allergies)
