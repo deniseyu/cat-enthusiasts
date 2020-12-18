@@ -13,9 +13,9 @@ inputs:
   attributes:
     label: Best cat breed?
     placeholder: ex. Maine Coon
+    required: true
 - type: textarea
   attributes:
     label: Number of rooms
     description: How many rooms in your house are dedicated to cats?
-issue_body: true
-
+issue_body: false
