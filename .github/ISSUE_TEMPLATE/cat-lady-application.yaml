@@ -1,6 +1,6 @@
 ---
 name: Crazy Cat Lady Membership Application
-about: Tell us what qualifies you to be a registered crazy cat lady.
+about: "**Tell us what qualifies you to be a registered crazy cat lady.**"
 title: Application submitted by <replace with your name>
 inputs:
 - type: textarea
