@@ -3,11 +3,18 @@ name: Crazy Cat Lady Membership Application
 about: "**Tell us what qualifies you to be a registered crazy cat lady.**"
 title: Application submitted by <replace with your name>
 inputs:
+- type: dropdown
+  attributes:
+    label: What kind of cat fancier do you identify as?
+    choices:
+    - Casual
+    - Moderate
+    - I know every line from Cats 2019, I need help
 - type: textarea
   attributes:
     label: Your favorite cat
     required: true
-    placeholder: ex. Garfield, Maru, Mr. Mistoffolees
+    placeholder: ex. Garfield, Maru, Bananya, Mr. Mistoffolees
     description: Tell us about your favorite cat, fictional or real, and why that is your favorite.
 - type: input
   attributes:
