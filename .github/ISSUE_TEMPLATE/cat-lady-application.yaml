@@ -25,5 +25,5 @@ inputs:
   attributes:
     label: Number of rooms
     description: How many rooms in your house are dedicated to cats?
-    value: 10
+    value: "10"
 issue_body: false
