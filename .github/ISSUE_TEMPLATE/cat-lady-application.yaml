@@ -26,4 +26,15 @@ inputs:
     label: Number of rooms
     description: How many rooms in your house are dedicated to cats?
     value: "10"
+- type: multi_select
+  attributes:
+    label: Who did Cats 2019 deserve?
+    description: You may select multiple
+    choices:
+    - Dame Judy Dench
+    - Sir Ian McKellen
+    - James Corden
+    - Rebel Wilson
+    - Idris Elba
+    - Taylor Swift
 issue_body: false
