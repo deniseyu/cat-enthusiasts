@@ -1,54 +1,18 @@
 ---
-name: Crazy Cat Lady Membership Application
-description: "**Tell us what qualifies you to be a registered crazy cat lady.**"
-assignees: [deniseyu]
-labels: [meow, bug]
-title: Application submitted by <replace with your name>
+name: Cat Lady Membership Application
+description: Tell us what qualifies you to be a registered cat fancier.
 body:
-- type: dropdown
-  attributes:
-    label: What kind of cat fancier do you identify as?
-    options:
-    - Casual
-    - Moderate
-    - I know every line from Cats 2019, I need help
 - type: textarea
   attributes:
     label: Your favorite cat
-    placeholder: ex. Garfield, Maru, Bananya, Mr. Mistoffolees
-    description: Tell us about your favorite cat, fictional or real, and why that is your favorite.
+    placeholder: "Examples: Garfield, Maru, Mr. Mistoffolees"
   validations:
     required: true
-- type: input
-  attributes:
-    label: Best cat breed?
-    placeholder: ex. Maine Coon
-  validations:
-    required: true
-- type: input
-  attributes:
-    label: Number of rooms
-    description: How many rooms in your house are dedicated to cats?
-    value: "10"
 - type: dropdown
   attributes:
-    label: Who did Cats 2019 deserve?
-    description: You may select multiple
-    multiple: true
+    label: How many rooms in your house are dedicated to cats?
     options:
-    - Dame Judy Dench
-    - Sir Ian McKellen
-    - James Corden
-    - Rebel Wilson
-    - Idris Elba
-    - Taylor Swift
-- type: checkboxes
-  attributes: 
-    label: Contributor Checklist
-    description: Please verify that you've followed these steps
-    options:
-      - label: I have read the [Code of Conduct](https://github.com)
-        required: true
-      - label: I have read the Contributing Guidelines
-        required: true
+    - 1
+    - 2
+    - All of them
 issue_body: false
