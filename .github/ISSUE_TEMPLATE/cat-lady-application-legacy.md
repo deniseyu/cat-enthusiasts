@@ -1,8 +1,8 @@
 ---
 name: Cat Lady Application (Legacy)
 title: "Application submitted by: <your name>"
+about: This issue template is Markdown, for regression testing
 labels: "Needs triage"
-dont: show
 ---
 
 ## Thank you for your interest in becoming a Crazy Cat Lady!
