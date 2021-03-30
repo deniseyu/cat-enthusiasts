@@ -1,0 +1,52 @@
+name: Express your love of multiple cats
+description: This is a longer Issue Form with many different input types, for battle-testing
+body:
+- type: input
+  attributes:
+    label: Your name
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Email
+    description: Please do not actually put your personal details, this form is public and for test purposes only
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Phone number
+    description: Please do not actually put your personal details, this form is public and for test purposes only
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Favorite cat from "The Aristocats"
+- type: textarea
+  attributes:
+    label: Favorite cat from "Cats"
+- type: textarea
+  attributes:
+    label: Favorite cat from "The Lion King"
+- type: textarea
+  attributes:
+    label: Favorite cat from "Thundercats"
+- type: textarea
+  attributes:
+    label: Favorite banana from "Bananya"
+- type: textarea
+  attributes:
+    label: Favorite cat Pokemon
+- type: textarea
+  attributes:
+    label: Favorite cat YouTuber
+- type: dropdown
+  attributes:
+    label: On a scale of 1 to 5, how much do you love cats?
+    description: 1 = low, 5 = high
+    options: [1,2,3,4,5]
+- type: checkboxes
+  attributes:
+    label: Are you a cat?
+    options:
+    - value: Yes
+      required: true
