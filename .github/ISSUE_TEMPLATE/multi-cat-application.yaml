@@ -21,9 +21,13 @@ body:
 - type: textarea
   attributes:
     label: Favorite cat from "The Aristocats"
+  validations:
+    required: true
 - type: textarea
   attributes:
     label: Favorite cat from "Cats"
+  validations:
+    required: true
 - type: textarea
   attributes:
     label: Favorite cat from "The Lion King"
@@ -48,5 +52,5 @@ body:
   attributes:
     label: Are you a cat?
     options:
-    - label: Yes
+    - label: "Yes"
       required: true
