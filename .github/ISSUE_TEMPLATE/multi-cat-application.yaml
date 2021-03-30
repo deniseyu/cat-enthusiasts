@@ -48,5 +48,5 @@ body:
   attributes:
     label: Are you a cat?
     options:
-    - value: Yes
+    - label: Yes
       required: true
