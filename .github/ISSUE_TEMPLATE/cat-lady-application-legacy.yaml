@@ -1,0 +1,7 @@
+---
+name: Cat Lady Application (Legacy)
+description: "Application submitted by: <your name>"
+body:
+- type: input
+  attributes:
+    label: Who is your favorite cat?
