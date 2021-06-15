@@ -9,8 +9,7 @@ body:
       Thanks for taking the time to fill out this bug report!
 - type: checkboxes
   attributes:
-    label: Preflight Checklist
-    description: Please ensure you've completed all of the following.
+    label: Please confirm the following
     options:
       - label: I agree to follow the [Code of Conduct](TODO) that this project adheres to.
         required: true
