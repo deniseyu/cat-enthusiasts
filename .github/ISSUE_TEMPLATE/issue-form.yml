@@ -31,6 +31,9 @@ body:
   id: what-happened
   attributes:
     label: What happened?
-    placeholder: What happened? What did you expect to happen? What steps should we take to reproduce this?
+    placeholder: |
+      What happened?
+      What did you expect to happen?
+      What steps should we take to reproduce this?
   validations:
     required: true
