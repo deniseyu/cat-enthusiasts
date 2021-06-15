@@ -11,9 +11,7 @@ body:
   id: what-happened
   attributes:
     label: What happened?
-    description: Also tell us, what did you expect to happen?
-    placeholder: Tell us what you see!
-    value: "A bug happened!"
+    placeholder: What happened? What did you expect to happen? What steps should we take to reproduce it?
   validations:
     required: true
 - type: dropdown
