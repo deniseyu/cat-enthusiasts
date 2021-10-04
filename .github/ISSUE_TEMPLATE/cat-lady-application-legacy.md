@@ -1,7 +1,7 @@
 ---
-name: Cat Lady Application (Legacy)
+name: Cat Lady Application
 title: "Application submitted by: <your name>"
-about: This issue template is Markdown, for regression testing
+about: Apply to be a cat lady!
 labels: "Needs triage"
 ---
 
